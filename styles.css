@@ -1,0 +1,182 @@
+        .title {
+            position: absolute;
+            width: 133px;
+            height: 25px;
+            left: 77px;
+            top: 40px;
+            font-family: 'Inconsolata';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 24px;
+            line-height: 25px;
+            letter-spacing: -0.08em;
+            text-transform: uppercase;
+            color: #333333;
+        }
+        
+        .Heading {
+            position: absolute;
+            width: 586px;
+            height: 190px;
+            left: 735px;
+            top: 265px;
+            font-family: 'Space Mono';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 64px;
+            line-height: 95px;
+            letter-spacing: -0.035em;
+            /* Gray 1 */
+            color: #333333;
+        }
+        
+        .imageContainer {
+            background-image: url(/Scarecrow.png);
+            background-size: cover;
+            height: 414.2492370605469px;
+            width: 539.2236938476562px;
+            left: 77px;
+            top: 265px;
+            border-radius: 0px;
+            position: absolute;
+            left: 5.35%;
+            right: 57.21%;
+            top: 24.54%;
+            bottom: 37.11%;
+        }
+        
+        .info {
+            position: absolute;
+            width: 381px;
+            height: 108px;
+            left: 736px;
+            top: 491px;
+            font-family: 'Space Mono';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 24px;
+            line-height: 36px;
+            letter-spacing: -0.035em;
+            /* Gray 2 */
+            color: #4F4F4F;
+        }
+        
+        .returnOutline {
+            position: absolute;
+            width: 216px;
+            height: 68px;
+            left: 740px;
+            top: 663px;
+            /* Gray 1 */
+            background: #333333;
+        }
+        
+        .returnInfo {
+            position: relative;
+            width: 130px;
+            height: 21px;
+            left: 43px;
+            top: 23px;
+            font-family: 'Space Mono';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 14px;
+            line-height: 21px;
+            /* identical to box height */
+            letter-spacing: -0.035em;
+            text-transform: uppercase;
+            color: white;
+        }
+        
+        .authorDetails {
+            position: absolute;
+            height: 50px;
+            width: 200px;
+            left: 40%;
+            top: 800px;
+            font-family: 'Space Mono';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 14px;
+            line-height: 21px;
+        }
+        
+        .accountinfo {
+            position: absolute;
+            font-family: 'Space Mono';
+            left: 25px;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 14px;
+            line-height: 21px;
+            color: blue;
+        }
+        
+        @media screen and (max-width: 400px) {
+            .title {
+                position: absolute;
+                width: 133px;
+                height: 25px;
+                left: 24px;
+                top: 20px;
+                font-family: 'Inconsolata';
+                font-style: normal;
+                font-weight: 700;
+                font-size: 24px;
+                line-height: 25px;
+                letter-spacing: -0.08em;
+                text-transform: uppercase;
+                color: #333333;
+            }
+            .imageContainer {
+                background-image: url(/Scarecrow.png);
+                background-size: cover;
+                height: 220.35203552246094px;
+                width: 286.829833984375px;
+                border-radius: 0px;
+                position: absolute;
+                left: 44px;
+                right: 44px;
+                top: 109px;
+                bottom: 619px;
+            }
+            .Heading {
+                position: absolute;
+                width: 350px;
+                height: 142px;
+                left: 24px;
+                top: 407px;
+                font-family: 'Space Mono';
+                font-style: normal;
+                font-weight: 700;
+                font-size: 48px;
+                line-height: 71px;
+                letter-spacing: -0.035em;
+                /* Gray 1 */
+                color: #333333;
+            }
+            .info {
+                position: absolute;
+                width: 328px;
+                height: 81px;
+                left: 23px;
+                top: 579px;
+                font-family: 'Space Mono';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 18px;
+                line-height: 27px;
+                letter-spacing: -0.035em;
+                /* Gray 2 */
+                color: #4F4F4F;
+            }
+            .returnOutline {
+                position: absolute;
+                width: 216px;
+                height: 68px;
+                left: 24px;
+                top: 726px;
+                /* Gray 1 */
+                background: #333333;
+            }
+        }
